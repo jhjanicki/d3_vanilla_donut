@@ -1,8248 +1,2358 @@
 const data = [
-    {
-      "internalTaxonId": 161597,
-      "orderName": "LAMNIFORMES",
-      "familyName": "ALOPIIDAE",
-      "genusName": "Alopias",
-      "speciesName": "pelagicus",
-      "scientificName": "Alopias pelagicus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161696,
-      "orderName": "LAMNIFORMES",
-      "familyName": "ALOPIIDAE",
-      "genusName": "Alopias",
-      "speciesName": "superciliosus",
-      "scientificName": "Alopias superciliosus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39339,
-      "orderName": "LAMNIFORMES",
-      "familyName": "ALOPIIDAE",
-      "genusName": "Alopias",
-      "speciesName": "vulpinus",
-      "scientificName": "Alopias vulpinus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2022,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39335,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "BRACHAELURIDAE",
-      "genusName": "Brachaelurus",
-      "speciesName": "colcloughi",
-      "scientificName": "Brachaelurus colcloughi",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2015,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41732,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "BRACHAELURIDAE",
-      "genusName": "Brachaelurus",
-      "speciesName": "waddi",
-      "scientificName": "Brachaelurus waddi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63107,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CALLORHINCHIDAE",
-      "genusName": "Callorhinchus",
-      "speciesName": "callorynchus",
-      "scientificName": "Callorhinchus callorynchus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60138,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CALLORHINCHIDAE",
-      "genusName": "Callorhinchus",
-      "speciesName": "capensis",
-      "scientificName": "Callorhinchus capensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41743,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CALLORHINCHIDAE",
-      "genusName": "Callorhinchus",
-      "speciesName": "milii",
-      "scientificName": "Callorhinchus milii",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161378,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "acronotus",
-      "scientificName": "Carcharhinus acronotus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161526,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "albimarginatus",
-      "scientificName": "Carcharhinus albimarginatus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161564,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "altimus",
-      "scientificName": "Carcharhinus altimus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 40797,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "amblyrhynchoides",
-      "scientificName": "Carcharhinus amblyrhynchoides",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39365,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "amblyrhynchos",
-      "scientificName": "Carcharhinus amblyrhynchos",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39366,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "amboinensis",
-      "scientificName": "Carcharhinus amboinensis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39367,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "borneensis",
-      "scientificName": "Carcharhinus borneensis",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41741,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "brachyurus",
-      "scientificName": "Carcharhinus brachyurus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39368,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "brevipinna",
-      "scientificName": "Carcharhinus brevipinna",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41733,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "cautus",
-      "scientificName": "Carcharhinus cautus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 144137478,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "cerdale",
-      "scientificName": "Carcharhinus cerdale",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 70679787,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "coatesi",
-      "scientificName": "Carcharhinus coatesi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 70680197,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "dussumieri",
-      "scientificName": "Carcharhinus dussumieri",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39370,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "falciformis",
-      "scientificName": "Carcharhinus falciformis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41735,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "fitzroyensis",
-      "scientificName": "Carcharhinus fitzroyensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41736,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "galapagensis",
-      "scientificName": "Carcharhinus galapagensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39369,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "hemiodon",
-      "scientificName": "Carcharhinus hemiodon",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 110834677,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "humani",
-      "scientificName": "Carcharhinus humani",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161524,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "isodon",
-      "scientificName": "Carcharhinus isodon",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39371,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "leiodon",
-      "scientificName": "Carcharhinus leiodon",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2017,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39372,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "leucas",
-      "scientificName": "Carcharhinus leucas",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 3851,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "limbatus",
-      "scientificName": "Carcharhinus limbatus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39374,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "longimanus",
-      "scientificName": "Carcharhinus longimanus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41737,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "macloti",
-      "scientificName": "Carcharhinus macloti",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39375,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "melanopterus",
-      "scientificName": "Carcharhinus melanopterus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 3852,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "obscurus",
-      "scientificName": "Carcharhinus obscurus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 115696622,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "obsoletus",
-      "scientificName": "Carcharhinus obsoletus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60217,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "perezi",
-      "scientificName": "Carcharhinus perezi",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 3853,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "plumbeus",
-      "scientificName": "Carcharhinus plumbeus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 144136822,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "porosus",
-      "scientificName": "Carcharhinus porosus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41738,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "sealei",
-      "scientificName": "Carcharhinus sealei",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60219,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "signatus",
-      "scientificName": "Carcharhinus signatus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161376,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "sorrah",
-      "scientificName": "Carcharhinus sorrah",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41739,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "tilstoni",
-      "scientificName": "Carcharhinus tilstoni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 70680908,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Carcharhinus",
-      "speciesName": "tjutjot",
-      "scientificName": "Carcharhinus tjutjot",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39378,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Galeocerdo",
-      "speciesName": "cuvier",
-      "scientificName": "Galeocerdo cuvier",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 169473392,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Glyphis",
-      "speciesName": "gangeticus",
-      "scientificName": "Glyphis gangeticus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 42712,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Glyphis",
-      "speciesName": "garricki",
-      "scientificName": "Glyphis garricki",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39379,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Glyphis",
-      "speciesName": "glyphis",
-      "scientificName": "Glyphis glyphis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60218,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Isogomphodon",
-      "speciesName": "oxyrhynchus",
-      "scientificName": "Isogomphodon oxyrhynchus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 169760690,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Lamiopsis",
-      "speciesName": "temminckii",
-      "scientificName": "Lamiopsis temminckii",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 169755340,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Lamiopsis",
-      "speciesName": "tephrodes",
-      "scientificName": "Lamiopsis tephrodes",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41831,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Loxodon",
-      "speciesName": "macrorhinus",
-      "scientificName": "Loxodon macrorhinus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161355,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Nasolamia",
-      "speciesName": "velox",
-      "scientificName": "Nasolamia velox",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41836,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Negaprion",
-      "speciesName": "acutidens",
-      "scientificName": "Negaprion acutidens",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39380,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Negaprion",
-      "speciesName": "brevirostris",
-      "scientificName": "Negaprion brevirostris",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39381,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Prionace",
-      "speciesName": "glauca",
-      "scientificName": "Prionace glauca",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41850,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Rhizoprionodon",
-      "speciesName": "acutus",
-      "scientificName": "Rhizoprionodon acutus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 44666,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Rhizoprionodon",
-      "speciesName": "lalandii",
-      "scientificName": "Rhizoprionodon lalandii",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161662,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Rhizoprionodon",
-      "speciesName": "longurio",
-      "scientificName": "Rhizoprionodon longurio",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41851,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Rhizoprionodon",
-      "speciesName": "oligolinx",
-      "scientificName": "Rhizoprionodon oligolinx",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 61407,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Rhizoprionodon",
-      "speciesName": "porosus",
-      "scientificName": "Rhizoprionodon porosus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 41852,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Rhizoprionodon",
-      "speciesName": "taylori",
-      "scientificName": "Rhizoprionodon taylori",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39382,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Rhizoprionodon",
-      "speciesName": "terraenovae",
-      "scientificName": "Rhizoprionodon terraenovae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 169234201,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Scoliodon",
-      "speciesName": "laticaudus",
-      "scientificName": "Scoliodon laticaudus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 169233669,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Scoliodon",
-      "speciesName": "macrorhynchos",
-      "scientificName": "Scoliodon macrorhynchos",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39384,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "CARCHARHINIDAE",
-      "genusName": "Triaenodon",
-      "speciesName": "obesus",
-      "scientificName": "Triaenodon obesus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 161384,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "atromarginatus",
-      "scientificName": "Centrophorus atromarginatus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162293947,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "granulosus",
-      "scientificName": "Centrophorus granulosus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41740,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "harrissoni",
-      "scientificName": "Centrophorus harrissoni",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44563,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "isodon",
-      "scientificName": "Centrophorus isodon",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162292832,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "lesliei",
-      "scientificName": "Centrophorus lesliei",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162292301,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "longipinnis",
-      "scientificName": "Centrophorus longipinnis",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42838,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "moluccensis",
-      "scientificName": "Centrophorus moluccensis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161417,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "seychellorum",
-      "scientificName": "Centrophorus seychellorum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41871,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "squamosus",
-      "scientificName": "Centrophorus squamosus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60208,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "tessellatus",
-      "scientificName": "Centrophorus tessellatus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41745,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "uyato",
-      "scientificName": "Centrophorus uyato",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195485,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Centrophorus",
-      "speciesName": "westraliensis",
-      "scientificName": "Centrophorus westraliensis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41798,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Deania",
-      "speciesName": "calcea",
-      "scientificName": "Deania calcea",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161551,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Deania",
-      "speciesName": "profundorum",
-      "scientificName": "Deania profundorum",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161635,
-      "orderName": "SQUALIFORMES",
-      "familyName": "CENTROPHORIDAE",
-      "genusName": "Deania",
-      "speciesName": "quadrispinosa",
-      "scientificName": "Deania quadrispinosa",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 4292,
-      "orderName": "LAMNIFORMES",
-      "familyName": "CETORHINIDAE",
-      "genusName": "Cetorhinus",
-      "speciesName": "maximus",
-      "scientificName": "Cetorhinus maximus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 195427,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "argiloba",
-      "scientificName": "Chimaera argiloba",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195428,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "bahamaensis",
-      "scientificName": "Chimaera bahamaensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124398187,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "buccanigella",
-      "scientificName": "Chimaera buccanigella",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 116878608,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "carophila",
-      "scientificName": "Chimaera carophila",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60183,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "cubana",
-      "scientificName": "Chimaera cubana",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124398222,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "didierae",
-      "scientificName": "Chimaera didierae",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195429,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "fulva",
-      "scientificName": "Chimaera fulva",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60184,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "jordani",
-      "scientificName": "Chimaera jordani",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60185,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "lignaria",
-      "scientificName": "Chimaera lignaria",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195430,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "macrospina",
-      "scientificName": "Chimaera macrospina",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63114,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "monstrosa",
-      "scientificName": "Chimaera monstrosa",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195431,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "notafricana",
-      "scientificName": "Chimaera notafricana",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195432,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "obscura",
-      "scientificName": "Chimaera obscura",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 130420951,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "ogilbyi",
-      "scientificName": "Chimaera ogilbyi",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 18901743,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "opalescens",
-      "scientificName": "Chimaera opalescens",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 129494544,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "orientalis",
-      "scientificName": "Chimaera orientalis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60186,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "owstoni",
-      "scientificName": "Chimaera owstoni",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41793,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "panthera",
-      "scientificName": "Chimaera panthera",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60187,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "phantasma",
-      "scientificName": "Chimaera phantasma",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124398312,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Chimaera",
-      "speciesName": "willwatchi",
-      "scientificName": "Chimaera willwatchi",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63123,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "affinis",
-      "scientificName": "Hydrolagus affinis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60188,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "africanus",
-      "scientificName": "Hydrolagus africanus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60189,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "alberti",
-      "scientificName": "Hydrolagus alberti",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161324,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "alphus",
-      "scientificName": "Hydrolagus alphus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60190,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "barbouri",
-      "scientificName": "Hydrolagus barbouri",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41826,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "bemisi",
-      "scientificName": "Hydrolagus bemisi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60191,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "colliei",
-      "scientificName": "Hydrolagus colliei",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124398342,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "erithacus",
-      "scientificName": "Hydrolagus erithacus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195433,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "homonycteris",
-      "scientificName": "Hydrolagus homonycteris",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161475,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "lusitanicus",
-      "scientificName": "Hydrolagus lusitanicus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60193,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "macrophthalmus",
-      "scientificName": "Hydrolagus macrophthalmus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195434,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "marmoratus",
-      "scientificName": "Hydrolagus marmoratus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63151,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "matallanasi",
-      "scientificName": "Hydrolagus matallanasi",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63164,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "mccoskeri",
-      "scientificName": "Hydrolagus mccoskeri",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195435,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "melanophasma",
-      "scientificName": "Hydrolagus melanophasma",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63104,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "mirabilis",
-      "scientificName": "Hydrolagus mirabilis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60194,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "mitsukurii",
-      "scientificName": "Hydrolagus mitsukurii",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41827,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "novaezealandiae",
-      "scientificName": "Hydrolagus novaezealandiae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63103,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "pallidus",
-      "scientificName": "Hydrolagus pallidus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60196,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "purpurescens",
-      "scientificName": "Hydrolagus purpurescens",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60197,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "CHIMAERIDAE",
-      "genusName": "Hydrolagus",
-      "speciesName": "trolli",
-      "scientificName": "Hydrolagus trolli",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195489,
-      "orderName": "HEXANCHIFORMES",
-      "familyName": "CHLAMYDOSELACHIDAE",
-      "genusName": "Chlamydoselachus",
-      "speciesName": "africana",
-      "scientificName": "Chlamydoselachus africana",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41794,
-      "orderName": "HEXANCHIFORMES",
-      "familyName": "CHLAMYDOSELACHIDAE",
-      "genusName": "Chlamydoselachus",
-      "speciesName": "anguineus",
-      "scientificName": "Chlamydoselachus anguineus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 6229,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Dalatias",
-      "speciesName": "licha",
-      "scientificName": "Dalatias licha",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2018,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44603,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Euprotomicroides",
-      "speciesName": "zantedeschia",
-      "scientificName": "Euprotomicroides zantedeschia",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60210,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Euprotomicrus",
-      "speciesName": "bispinatus",
-      "scientificName": "Euprotomicrus bispinatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60211,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Heteroscymnoides",
-      "speciesName": "marleyi",
-      "scientificName": "Heteroscymnoides marleyi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41830,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Isistius",
-      "speciesName": "brasiliensis",
-      "scientificName": "Isistius brasiliensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60212,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Isistius",
-      "speciesName": "plutodus",
-      "scientificName": "Isistius plutodus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 153198442,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Mollisquama",
-      "speciesName": "mississippiensis",
-      "scientificName": "Mollisquama mississippiensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44515,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Mollisquama",
-      "speciesName": "parini",
-      "scientificName": "Mollisquama parini",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41858,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Squaliolus",
-      "speciesName": "aliae",
-      "scientificName": "Squaliolus aliae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60214,
-      "orderName": "SQUALIFORMES",
-      "familyName": "DALATIIDAE",
-      "genusName": "Squaliolus",
-      "speciesName": "laticaudus",
-      "scientificName": "Squaliolus laticaudus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41801,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ECHINORHINIDAE",
-      "genusName": "Echinorhinus",
-      "speciesName": "brucus",
-      "scientificName": "Echinorhinus brucus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41802,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ECHINORHINIDAE",
-      "genusName": "Echinorhinus",
-      "speciesName": "cookei",
-      "scientificName": "Echinorhinus cookei",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44653,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Aculeola",
-      "speciesName": "nigra",
-      "scientificName": "Aculeola nigra",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161740,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Centroscyllium",
-      "speciesName": "excelsum",
-      "scientificName": "Centroscyllium excelsum",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161521,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Centroscyllium",
-      "speciesName": "fabricii",
-      "scientificName": "Centroscyllium fabricii",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44567,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Centroscyllium",
-      "speciesName": "granulatum",
-      "scientificName": "Centroscyllium granulatum",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41746,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Centroscyllium",
-      "speciesName": "kamoharai",
-      "scientificName": "Centroscyllium kamoharai",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44514,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Centroscyllium",
-      "speciesName": "nigrum",
-      "scientificName": "Centroscyllium nigrum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161578,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Centroscyllium",
-      "speciesName": "ornatum",
-      "scientificName": "Centroscyllium ornatum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161508,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Centroscyllium",
-      "speciesName": "ritteri",
-      "scientificName": "Centroscyllium ritteri",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124357224,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "alphus",
-      "scientificName": "Etmopterus alphus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 144135467,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "benchleyi",
-      "scientificName": "Etmopterus benchleyi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60236,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "bigelowi",
-      "scientificName": "Etmopterus bigelowi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161649,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "brachyurus",
-      "scientificName": "Etmopterus brachyurus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60237,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "bullisi",
-      "scientificName": "Etmopterus bullisi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161327,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "burgessi",
-      "scientificName": "Etmopterus burgessi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60238,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "carteri",
-      "scientificName": "Etmopterus carteri",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41804,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "caudistigmus",
-      "scientificName": "Etmopterus caudistigmus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124357844,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "compagnoi",
-      "scientificName": "Etmopterus compagnoi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161585,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "decacuspidatus",
-      "scientificName": "Etmopterus decacuspidatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41805,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "dianthus",
-      "scientificName": "Etmopterus dianthus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41806,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "dislineatus",
-      "scientificName": "Etmopterus dislineatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41807,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "evansi",
-      "scientificName": "Etmopterus evansi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41808,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "fusus",
-      "scientificName": "Etmopterus fusus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63108,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "gracilispinis",
-      "scientificName": "Etmopterus gracilispinis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 116856245,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "granulosus",
-      "scientificName": "Etmopterus granulosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60239,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "hillianus",
-      "scientificName": "Etmopterus hillianus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 169231349,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "joungi",
-      "scientificName": "Etmopterus joungi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162209137,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "lailae",
-      "scientificName": "Etmopterus lailae",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63159,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "litvinovi",
-      "scientificName": "Etmopterus litvinovi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161517,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "lucifer",
-      "scientificName": "Etmopterus lucifer",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162209242,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "marshae",
-      "scientificName": "Etmopterus marshae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161407,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "molleri",
-      "scientificName": "Etmopterus molleri",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60240,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "perryi",
-      "scientificName": "Etmopterus perryi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60241,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "polli",
-      "scientificName": "Etmopterus polli",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60242,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "princeps",
-      "scientificName": "Etmopterus princeps",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41809,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "pseudosqualiolus",
-      "scientificName": "Etmopterus pseudosqualiolus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161443,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "pusillus",
-      "scientificName": "Etmopterus pusillus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63160,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "pycnolepis",
-      "scientificName": "Etmopterus pycnolepis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60243,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "robinsi",
-      "scientificName": "Etmopterus robinsi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162209351,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "samadiae",
-      "scientificName": "Etmopterus samadiae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60246,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "schultzi",
-      "scientificName": "Etmopterus schultzi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124357891,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "sculptus",
-      "scientificName": "Etmopterus sculptus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60244,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "sentosus",
-      "scientificName": "Etmopterus sentosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44564,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "sheikoi",
-      "scientificName": "Etmopterus sheikoi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161388,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "spinax",
-      "scientificName": "Etmopterus spinax",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161448,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "splendidus",
-      "scientificName": "Etmopterus splendidus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124696811,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "unicolor",
-      "scientificName": "Etmopterus unicolor",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 116878630,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "viator",
-      "scientificName": "Etmopterus viator",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161441,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "villosus",
-      "scientificName": "Etmopterus villosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60245,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Etmopterus",
-      "speciesName": "virens",
-      "scientificName": "Etmopterus virens",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44205,
-      "orderName": "SQUALIFORMES",
-      "familyName": "ETMOPTERIDAE",
-      "genusName": "Trigonognathus",
-      "speciesName": "kabeyai",
-      "scientificName": "Trigonognathus kabeyai",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 144141186,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "GINGLYMOSTOMATIDAE",
-      "genusName": "Ginglymostoma",
-      "speciesName": "cirratum",
-      "scientificName": "Ginglymostoma cirratum",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 144151831,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "GINGLYMOSTOMATIDAE",
-      "genusName": "Ginglymostoma",
-      "speciesName": "unami",
-      "scientificName": "Ginglymostoma unami",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41835,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "GINGLYMOSTOMATIDAE",
-      "genusName": "Nebrius",
-      "speciesName": "ferrugineus",
-      "scientificName": "Nebrius ferrugineus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44617,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "GINGLYMOSTOMATIDAE",
-      "genusName": "Pseudoginglymostoma",
-      "speciesName": "brevicaudatum",
-      "scientificName": "Pseudoginglymostoma brevicaudatum",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161695,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Chaenogaleus",
-      "speciesName": "macrostoma",
-      "scientificName": "Chaenogaleus macrostoma",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161539,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Hemigaleus",
-      "speciesName": "australiensis",
-      "scientificName": "Hemigaleus australiensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41816,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Hemigaleus",
-      "speciesName": "microstoma",
-      "scientificName": "Hemigaleus microstoma",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41874,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Hemipristis",
-      "speciesName": "elongata",
-      "scientificName": "Hemipristis elongata",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2016,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161639,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Paragaleus",
-      "speciesName": "leucolomatus",
-      "scientificName": "Paragaleus leucolomatus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161707,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Paragaleus",
-      "speciesName": "pectoralis",
-      "scientificName": "Paragaleus pectoralis",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161506,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Paragaleus",
-      "speciesName": "randalli",
-      "scientificName": "Paragaleus randalli",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161543,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "HEMIGALEIDAE",
-      "genusName": "Paragaleus",
-      "speciesName": "tengi",
-      "scientificName": "Paragaleus tengi",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161426,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "arabicum",
-      "scientificName": "Chiloscyllium arabicum",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2017,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161616,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "burmensis",
-      "scientificName": "Chiloscyllium burmensis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124552788,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "caeruleopunctatum",
-      "scientificName": "Chiloscyllium caeruleopunctatum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41792,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "griseum",
-      "scientificName": "Chiloscyllium griseum",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161557,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "hasselti",
-      "scientificName": "Chiloscyllium hasselti",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41791,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "indicum",
-      "scientificName": "Chiloscyllium indicum",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124554059,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "plagiosum",
-      "scientificName": "Chiloscyllium plagiosum",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41872,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Chiloscyllium",
-      "speciesName": "punctatum",
-      "scientificName": "Chiloscyllium punctatum",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2016,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 199932,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "freycineti",
-      "scientificName": "Hemiscyllium freycineti",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195436,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "galei",
-      "scientificName": "Hemiscyllium galei",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41875,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "hallstromi",
-      "scientificName": "Hemiscyllium hallstromi",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 176486052,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "halmahera",
-      "scientificName": "Hemiscyllium halmahera",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195437,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "henryi",
-      "scientificName": "Hemiscyllium henryi",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195438,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "michaeli",
-      "scientificName": "Hemiscyllium michaeli",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41818,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "ocellatum",
-      "scientificName": "Hemiscyllium ocellatum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41819,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "strahani",
-      "scientificName": "Hemiscyllium strahani",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41820,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "HEMISCYLLIIDAE",
-      "genusName": "Hemiscyllium",
-      "speciesName": "trispeculare",
-      "scientificName": "Hemiscyllium trispeculare",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39333,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "francisci",
-      "scientificName": "Heterodontus francisci",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41824,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "galeatus",
-      "scientificName": "Heterodontus galeatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161714,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "japonicus",
-      "scientificName": "Heterodontus japonicus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60235,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "mexicanus",
-      "scientificName": "Heterodontus mexicanus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161720,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "omanensis",
-      "scientificName": "Heterodontus omanensis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39334,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "portusjacksoni",
-      "scientificName": "Heterodontus portusjacksoni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44579,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "quoyi",
-      "scientificName": "Heterodontus quoyi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44614,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "ramalheira",
-      "scientificName": "Heterodontus ramalheira",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41825,
-      "orderName": "HETERODONTIFORMES",
-      "familyName": "HETERODONTIDAE",
-      "genusName": "Heterodontus",
-      "speciesName": "zebra",
-      "scientificName": "Heterodontus zebra",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41823,
-      "orderName": "HEXANCHIFORMES",
-      "familyName": "HEXANCHIDAE",
-      "genusName": "Heptranchias",
-      "speciesName": "perlo",
-      "scientificName": "Heptranchias perlo",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 10030,
-      "orderName": "HEXANCHIFORMES",
-      "familyName": "HEXANCHIDAE",
-      "genusName": "Hexanchus",
-      "speciesName": "griseus",
-      "scientificName": "Hexanchus griseus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 152781341,
-      "orderName": "HEXANCHIFORMES",
-      "familyName": "HEXANCHIDAE",
-      "genusName": "Hexanchus",
-      "speciesName": "nakamurai",
-      "scientificName": "Hexanchus nakamurai",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 152781715,
-      "orderName": "HEXANCHIFORMES",
-      "familyName": "HEXANCHIDAE",
-      "genusName": "Hexanchus",
-      "speciesName": "vitulus",
-      "scientificName": "Hexanchus vitulus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39324,
-      "orderName": "HEXANCHIFORMES",
-      "familyName": "HEXANCHIDAE",
-      "genusName": "Notorynchus",
-      "speciesName": "cepedianus",
-      "scientificName": "Notorynchus cepedianus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 3855,
-      "orderName": "LAMNIFORMES",
-      "familyName": "LAMNIDAE",
-      "genusName": "Carcharodon",
-      "speciesName": "carcharias",
-      "scientificName": "Carcharodon carcharias",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2022,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39341,
-      "orderName": "LAMNIFORMES",
-      "familyName": "LAMNIDAE",
-      "genusName": "Isurus",
-      "speciesName": "oxyrinchus",
-      "scientificName": "Isurus oxyrinchus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60225,
-      "orderName": "LAMNIFORMES",
-      "familyName": "LAMNIDAE",
-      "genusName": "Isurus",
-      "speciesName": "paucus",
-      "scientificName": "Isurus paucus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39342,
-      "orderName": "LAMNIFORMES",
-      "familyName": "LAMNIDAE",
-      "genusName": "Lamna",
-      "speciesName": "ditropis",
-      "scientificName": "Lamna ditropis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 11200,
-      "orderName": "LAMNIFORMES",
-      "familyName": "LAMNIDAE",
-      "genusName": "Lamna",
-      "speciesName": "nasus",
-      "scientificName": "Lamna nasus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39350,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "LEPTOCHARIIDAE",
-      "genusName": "Leptocharias",
-      "speciesName": "smithii",
-      "scientificName": "Leptocharias smithii",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39338,
-      "orderName": "LAMNIFORMES",
-      "familyName": "MEGACHASMIDAE",
-      "genusName": "Megachasma",
-      "speciesName": "pelagios",
-      "scientificName": "Megachasma pelagios",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44565,
-      "orderName": "LAMNIFORMES",
-      "familyName": "MITSUKURINIDAE",
-      "genusName": "Mitsukurina",
-      "speciesName": "owstoni",
-      "scientificName": "Mitsukurina owstoni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 3854,
-      "orderName": "LAMNIFORMES",
-      "familyName": "ODONTASPIDIDAE",
-      "genusName": "Carcharias",
-      "speciesName": "taurus",
-      "scientificName": "Carcharias taurus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41876,
-      "orderName": "LAMNIFORMES",
-      "familyName": "ODONTASPIDIDAE",
-      "genusName": "Odontaspis",
-      "speciesName": "ferox",
-      "scientificName": "Odontaspis ferox",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2016,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39336,
-      "orderName": "LAMNIFORMES",
-      "familyName": "ODONTASPIDIDAE",
-      "genusName": "Odontaspis",
-      "speciesName": "noronhai",
-      "scientificName": "Odontaspis noronhai",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41873,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Eucrossorhinus",
-      "speciesName": "dasypogon",
-      "scientificName": "Eucrossorhinus dasypogon",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161664,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "floridus",
-      "scientificName": "Orectolobus floridus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161709,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "halei",
-      "scientificName": "Orectolobus halei",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42717,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "hutchinsi",
-      "scientificName": "Orectolobus hutchinsi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161563,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "japonicus",
-      "scientificName": "Orectolobus japonicus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 176486152,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "leptolineatus",
-      "scientificName": "Orectolobus leptolineatus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41837,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "maculatus",
-      "scientificName": "Orectolobus maculatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41838,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "ornatus",
-      "scientificName": "Orectolobus ornatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161651,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "parvimaculatus",
-      "scientificName": "Orectolobus parvimaculatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195439,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "reticulatus",
-      "scientificName": "Orectolobus reticulatus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41839,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Orectolobus",
-      "speciesName": "wardi",
-      "scientificName": "Orectolobus wardi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41864,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "ORECTOLOBIDAE",
-      "genusName": "Sutorectus",
-      "speciesName": "tentaculatus",
-      "scientificName": "Sutorectus tentaculatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41840,
-      "orderName": "SQUALIFORMES",
-      "familyName": "OXYNOTIDAE",
-      "genusName": "Oxynotus",
-      "speciesName": "bruniensis",
-      "scientificName": "Oxynotus bruniensis",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44568,
-      "orderName": "SQUALIFORMES",
-      "familyName": "OXYNOTIDAE",
-      "genusName": "Oxynotus",
-      "speciesName": "caribbaeus",
-      "scientificName": "Oxynotus caribbaeus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63141,
-      "orderName": "SQUALIFORMES",
-      "familyName": "OXYNOTIDAE",
-      "genusName": "Oxynotus",
-      "speciesName": "centrina",
-      "scientificName": "Oxynotus centrina",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44206,
-      "orderName": "SQUALIFORMES",
-      "familyName": "OXYNOTIDAE",
-      "genusName": "Oxynotus",
-      "speciesName": "japonicus",
-      "scientificName": "Oxynotus japonicus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161361,
-      "orderName": "SQUALIFORMES",
-      "familyName": "OXYNOTIDAE",
-      "genusName": "Oxynotus",
-      "speciesName": "paradoxus",
-      "scientificName": "Oxynotus paradoxus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161351,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Cirrhoscyllium",
-      "speciesName": "expolitum",
-      "scientificName": "Cirrhoscyllium expolitum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161679,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Cirrhoscyllium",
-      "speciesName": "formosanum",
-      "scientificName": "Cirrhoscyllium formosanum",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161606,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Cirrhoscyllium",
-      "speciesName": "japonicum",
-      "scientificName": "Cirrhoscyllium japonicum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41841,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Parascyllium",
-      "speciesName": "collare",
-      "scientificName": "Parascyllium collare",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195440,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Parascyllium",
-      "speciesName": "elongatum",
-      "scientificName": "Parascyllium elongatum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41842,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Parascyllium",
-      "speciesName": "ferrugineum",
-      "scientificName": "Parascyllium ferrugineum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41843,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Parascyllium",
-      "speciesName": "sparsimaculatum",
-      "scientificName": "Parascyllium sparsimaculatum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41844,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "PARASCYLLIIDAE",
-      "genusName": "Parascyllium",
-      "speciesName": "variolatum",
-      "scientificName": "Parascyllium variolatum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41718,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "albisoma",
-      "scientificName": "Apristurus albisoma",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42701,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "ampliceps",
-      "scientificName": "Apristurus ampliceps",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44207,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "aphyodes",
-      "scientificName": "Apristurus aphyodes",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42704,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "australis",
-      "scientificName": "Apristurus australis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 103055459,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "breviventralis",
-      "scientificName": "Apristurus breviventralis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44209,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "brunneus",
-      "scientificName": "Apristurus brunneus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42703,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "bucephalus",
-      "scientificName": "Apristurus bucephalus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44572,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "canutus",
-      "scientificName": "Apristurus canutus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41719,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "exsanguis",
-      "scientificName": "Apristurus exsanguis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44210,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "fedorovi",
-      "scientificName": "Apristurus fedorovi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 116857982,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "garricki",
-      "scientificName": "Apristurus garricki",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44211,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "gibbosus",
-      "scientificName": "Apristurus gibbosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44212,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "herklotsi",
-      "scientificName": "Apristurus herklotsi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161470,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "indicus",
-      "scientificName": "Apristurus indicus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44213,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "internatus",
-      "scientificName": "Apristurus internatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44214,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "investigatoris",
-      "scientificName": "Apristurus investigatoris",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161367,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "japonicus",
-      "scientificName": "Apristurus japonicus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44215,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "kampae",
-      "scientificName": "Apristurus kampae",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44216,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "laurussonii",
-      "scientificName": "Apristurus laurussonii",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44217,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "longicephalus",
-      "scientificName": "Apristurus longicephalus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44218,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "macrorhynchus",
-      "scientificName": "Apristurus macrorhynchus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44219,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "macrostomus",
-      "scientificName": "Apristurus macrostomus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44599,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "manis",
-      "scientificName": "Apristurus manis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42700,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "melanoasper",
-      "scientificName": "Apristurus melanoasper",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44657,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "microps",
-      "scientificName": "Apristurus microps",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44220,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "micropterygeus",
-      "scientificName": "Apristurus micropterygeus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 117839264,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "nakayai",
-      "scientificName": "Apristurus nakayai",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44573,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "nasutus",
-      "scientificName": "Apristurus nasutus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44221,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "parvipinnis",
-      "scientificName": "Apristurus parvipinnis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44222,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "pinguis",
-      "scientificName": "Apristurus pinguis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44223,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "platyrhynchus",
-      "scientificName": "Apristurus platyrhynchus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44224,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "profundorum",
-      "scientificName": "Apristurus profundorum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44639,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "riveri",
-      "scientificName": "Apristurus riveri",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44602,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "saldanha",
-      "scientificName": "Apristurus saldanha",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161672,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "sibogae",
-      "scientificName": "Apristurus sibogae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44225,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "sinensis",
-      "scientificName": "Apristurus sinensis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44226,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "spongiceps",
-      "scientificName": "Apristurus spongiceps",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44574,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "stenseni",
-      "scientificName": "Apristurus stenseni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162209907,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Apristurus",
-      "speciesName": "yangi",
-      "scientificName": "Apristurus yangi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41720,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "analis",
-      "scientificName": "Asymbolus analis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41721,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "funebris",
-      "scientificName": "Asymbolus funebris",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195421,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "galacticus",
-      "scientificName": "Asymbolus galacticus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41722,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "occiduus",
-      "scientificName": "Asymbolus occiduus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41723,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "pallidus",
-      "scientificName": "Asymbolus pallidus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41724,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "parvus",
-      "scientificName": "Asymbolus parvus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41725,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "rubiginosus",
-      "scientificName": "Asymbolus rubiginosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41726,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "submaculatus",
-      "scientificName": "Asymbolus submaculatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41727,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Asymbolus",
-      "speciesName": "vincenti",
-      "scientificName": "Asymbolus vincenti",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44227,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "alcockii",
-      "scientificName": "Bythaelurus alcockii",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124396026,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "bachi",
-      "scientificName": "Bythaelurus bachi",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 61400,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "canescens",
-      "scientificName": "Bythaelurus canescens",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44604,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "clevai",
-      "scientificName": "Bythaelurus clevai",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44170,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "dawsoni",
-      "scientificName": "Bythaelurus dawsoni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 144152304,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "giddingsi",
-      "scientificName": "Bythaelurus giddingsi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44228,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "hispidus",
-      "scientificName": "Bythaelurus hispidus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44229,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "immaculatus",
-      "scientificName": "Bythaelurus immaculatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44171,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "incanus",
-      "scientificName": "Bythaelurus incanus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 141744346,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "lutarius",
-      "scientificName": "Bythaelurus lutarius",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124396124,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "naylori",
-      "scientificName": "Bythaelurus naylori",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 141747777,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "stewarti",
-      "scientificName": "Bythaelurus stewarti",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 110903105,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "tenuicephalus",
-      "scientificName": "Bythaelurus tenuicephalus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 141745938,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Bythaelurus",
-      "speciesName": "vivaldii",
-      "scientificName": "Bythaelurus vivaldii",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161455,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Cephalurus",
-      "speciesName": "cephalus",
-      "scientificName": "Cephalurus cephalus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41811,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Figaro",
-      "speciesName": "boardmani",
-      "scientificName": "Figaro boardmani",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42711,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Figaro",
-      "speciesName": "striatus",
-      "scientificName": "Figaro striatus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161732,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "antillensis",
-      "scientificName": "Galeus antillensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161479,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "arae",
-      "scientificName": "Galeus arae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63149,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "atlanticus",
-      "scientificName": "Galeus atlanticus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161460,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "cadenati",
-      "scientificName": "Galeus cadenati",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162209990,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "corriganae",
-      "scientificName": "Galeus corriganae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161364,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "eastmani",
-      "scientificName": "Galeus eastmani",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41812,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "gracilis",
-      "scientificName": "Galeus gracilis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161473,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "longirostris",
-      "scientificName": "Galeus longirostris",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161398,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "melastomus",
-      "scientificName": "Galeus melastomus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44578,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "mincaronei",
-      "scientificName": "Galeus mincaronei",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161705,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "murinus",
-      "scientificName": "Galeus murinus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161567,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "nipponensis",
-      "scientificName": "Galeus nipponensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60228,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "piperatus",
-      "scientificName": "Galeus piperatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44649,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "polli",
-      "scientificName": "Galeus polli",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195425,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "priapus",
-      "scientificName": "Galeus priapus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161406,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "sauteri",
-      "scientificName": "Galeus sauteri",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161333,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "schultzi",
-      "scientificName": "Galeus schultzi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161498,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Galeus",
-      "speciesName": "springeri",
-      "scientificName": "Galeus springeri",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161488,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Halaelurus",
-      "speciesName": "boesemani",
-      "scientificName": "Halaelurus boesemani",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2017,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161680,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Halaelurus",
-      "speciesName": "buergeri",
-      "scientificName": "Halaelurus buergeri",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44612,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Halaelurus",
-      "speciesName": "lineatus",
-      "scientificName": "Halaelurus lineatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161644,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Halaelurus",
-      "speciesName": "maculosus",
-      "scientificName": "Halaelurus maculosus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44613,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Halaelurus",
-      "speciesName": "natalensis",
-      "scientificName": "Halaelurus natalensis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161625,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Halaelurus",
-      "speciesName": "quagga",
-      "scientificName": "Halaelurus quagga",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42713,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Halaelurus",
-      "speciesName": "sellus",
-      "scientificName": "Halaelurus sellus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39345,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Haploblepharus",
-      "speciesName": "edwardsii",
-      "scientificName": "Haploblepharus edwardsii",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39346,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Haploblepharus",
-      "speciesName": "fuscus",
-      "scientificName": "Haploblepharus fuscus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161667,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Haploblepharus",
-      "speciesName": "kistnasamyi",
-      "scientificName": "Haploblepharus kistnasamyi",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161650,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Haploblepharus",
-      "speciesName": "pictus",
-      "scientificName": "Haploblepharus pictus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161652,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Holohalaelurus",
-      "speciesName": "favus",
-      "scientificName": "Holohalaelurus favus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161531,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Holohalaelurus",
-      "speciesName": "grennian",
-      "scientificName": "Holohalaelurus grennian",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60229,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Holohalaelurus",
-      "speciesName": "melanostigma",
-      "scientificName": "Holohalaelurus melanostigma",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161675,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Holohalaelurus",
-      "speciesName": "punctatus",
-      "scientificName": "Holohalaelurus punctatus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161574,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Holohalaelurus",
-      "speciesName": "regani",
-      "scientificName": "Holohalaelurus regani",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161509,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "albimarginatus",
-      "scientificName": "Parmaturus albimarginatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161726,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "albipenis",
-      "scientificName": "Parmaturus albipenis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 152501278,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "angelae",
-      "scientificName": "Parmaturus angelae",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42718,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "bigus",
-      "scientificName": "Parmaturus bigus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60230,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "campechiensis",
-      "scientificName": "Parmaturus campechiensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161450,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "lanatus",
-      "scientificName": "Parmaturus lanatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41845,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "macmillani",
-      "scientificName": "Parmaturus macmillani",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161497,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "melanobranchus",
-      "scientificName": "Parmaturus melanobranchus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162215361,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "nigripalatum",
-      "scientificName": "Parmaturus nigripalatum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161581,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "pilosus",
-      "scientificName": "Parmaturus pilosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60231,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Parmaturus",
-      "speciesName": "xaniurus",
-      "scientificName": "Parmaturus xaniurus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161437,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PENTANCHIDAE",
-      "genusName": "Pentanchus",
-      "speciesName": "profundicolus",
-      "scientificName": "Pentanchus profundicolus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 171729462,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pliotrema",
-      "speciesName": "annae",
-      "scientificName": "Pliotrema annae",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 171729431,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pliotrema",
-      "speciesName": "kajae",
-      "scientificName": "Pliotrema kajae",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 171728748,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pliotrema",
-      "speciesName": "warreni",
-      "scientificName": "Pliotrema warreni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39327,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pristiophorus",
-      "speciesName": "cirratus",
-      "scientificName": "Pristiophorus cirratus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42720,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pristiophorus",
-      "speciesName": "delicatus",
-      "scientificName": "Pristiophorus delicatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161634,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pristiophorus",
-      "speciesName": "japonicus",
-      "scientificName": "Pristiophorus japonicus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162209834,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pristiophorus",
-      "speciesName": "lanae",
-      "scientificName": "Pristiophorus lanae",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 103054942,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pristiophorus",
-      "speciesName": "nancyae",
-      "scientificName": "Pristiophorus nancyae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41846,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pristiophorus",
-      "speciesName": "nudipinnis",
-      "scientificName": "Pristiophorus nudipinnis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60226,
-      "orderName": "PRISTIOPHORIFORMES",
-      "familyName": "PRISTIOPHORIDAE",
-      "genusName": "Pristiophorus",
-      "speciesName": "schroederi",
-      "scientificName": "Pristiophorus schroederi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161499,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PROSCYLLIIDAE",
-      "genusName": "Ctenacis",
-      "speciesName": "fehlmanni",
-      "scientificName": "Ctenacis fehlmanni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161330,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PROSCYLLIIDAE",
-      "genusName": "Eridacnis",
-      "speciesName": "barbouri",
-      "scientificName": "Eridacnis barbouri",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161468,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PROSCYLLIIDAE",
-      "genusName": "Eridacnis",
-      "speciesName": "radcliffei",
-      "scientificName": "Eridacnis radcliffei",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44611,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PROSCYLLIIDAE",
-      "genusName": "Eridacnis",
-      "speciesName": "sinuans",
-      "scientificName": "Eridacnis sinuans",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161733,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PROSCYLLIIDAE",
-      "genusName": "Proscyllium",
-      "speciesName": "habereri",
-      "scientificName": "Proscyllium habereri",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 176485629,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PROSCYLLIIDAE",
-      "genusName": "Proscyllium",
-      "speciesName": "magnificum",
-      "scientificName": "Proscyllium magnificum",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39337,
-      "orderName": "LAMNIFORMES",
-      "familyName": "PSEUDOCARCHARIIDAE",
-      "genusName": "Pseudocarcharias",
-      "speciesName": "kamoharai",
-      "scientificName": "Pseudocarcharias kamoharai",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41814,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PSEUDOTRIAKIDAE",
-      "genusName": "Gollum",
-      "speciesName": "attenuatus",
-      "scientificName": "Gollum attenuatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162215695,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PSEUDOTRIAKIDAE",
-      "genusName": "Gollum",
-      "speciesName": "suluensis",
-      "scientificName": "Gollum suluensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162215720,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PSEUDOTRIAKIDAE",
-      "genusName": "Planonasus",
-      "speciesName": "indicus",
-      "scientificName": "Planonasus indicus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 103055306,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PSEUDOTRIAKIDAE",
-      "genusName": "Planonasus",
-      "speciesName": "parini",
-      "scientificName": "Planonasus parini",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44566,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "PSEUDOTRIAKIDAE",
-      "genusName": "Pseudotriakis",
-      "speciesName": "microdon",
-      "scientificName": "Pseudotriakis microdon",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 19488,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "RHINCODONTIDAE",
-      "genusName": "Rhincodon",
-      "speciesName": "typus",
-      "scientificName": "Rhincodon typus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2016,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60139,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Harriotta",
-      "speciesName": "haeckeli",
-      "scientificName": "Harriotta haeckeli",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60140,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Harriotta",
-      "speciesName": "raleighana",
-      "scientificName": "Harriotta raleighana",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60141,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Neoharriotta",
-      "speciesName": "carri",
-      "scientificName": "Neoharriotta carri",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60142,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Neoharriotta",
-      "speciesName": "pinnata",
-      "scientificName": "Neoharriotta pinnata",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60143,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Neoharriotta",
-      "speciesName": "pumila",
-      "scientificName": "Neoharriotta pumila",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2017,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60144,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Rhinochimaera",
-      "speciesName": "africana",
-      "scientificName": "Rhinochimaera africana",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60145,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Rhinochimaera",
-      "speciesName": "atlantica",
-      "scientificName": "Rhinochimaera atlantica",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60146,
-      "orderName": "CHIMAERIFORMES",
-      "familyName": "RHINOCHIMAERIDAE",
-      "genusName": "Rhinochimaera",
-      "speciesName": "pacifica",
-      "scientificName": "Rhinochimaera pacifica",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 169836996,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Akheilos",
-      "speciesName": "suwartanai",
-      "scientificName": "Akheilos suwartanai",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161736,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Atelomycterus",
-      "speciesName": "baliensis",
-      "scientificName": "Atelomycterus baliensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 176485916,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Atelomycterus",
-      "speciesName": "erdmanni",
-      "scientificName": "Atelomycterus erdmanni",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41728,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Atelomycterus",
-      "speciesName": "fasciatus",
-      "scientificName": "Atelomycterus fasciatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41729,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Atelomycterus",
-      "speciesName": "macleayi",
-      "scientificName": "Atelomycterus macleayi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41730,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Atelomycterus",
-      "speciesName": "marmoratus",
-      "scientificName": "Atelomycterus marmoratus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161434,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Atelomycterus",
-      "speciesName": "marnkalha",
-      "scientificName": "Atelomycterus marnkalha",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41870,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Aulohalaelurus",
-      "speciesName": "kanakorum",
-      "scientificName": "Aulohalaelurus kanakorum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41731,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Aulohalaelurus",
-      "speciesName": "labiosus",
-      "scientificName": "Aulohalaelurus labiosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42706,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "albipinnum",
-      "scientificName": "Cephaloscyllium albipinnum",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 174145,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "cooki",
-      "scientificName": "Cephaloscyllium cooki",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162207827,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "fasciatum",
-      "scientificName": "Cephaloscyllium fasciatum",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 169232559,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "formosanum",
-      "scientificName": "Cephaloscyllium formosanum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195422,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "hiscosellum",
-      "scientificName": "Cephaloscyllium hiscosellum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41752,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "isabellum",
-      "scientificName": "Cephaloscyllium isabellum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41753,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "laticeps",
-      "scientificName": "Cephaloscyllium laticeps",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162215534,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "pictum",
-      "scientificName": "Cephaloscyllium pictum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161380,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "sarawakensis",
-      "scientificName": "Cephaloscyllium sarawakensis",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 181361,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "signourum",
-      "scientificName": "Cephaloscyllium signourum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161591,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "silasi",
-      "scientificName": "Cephaloscyllium silasi",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42710,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "speccum",
-      "scientificName": "Cephaloscyllium speccum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162215596,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "stevensi",
-      "scientificName": "Cephaloscyllium stevensi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44606,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "sufflans",
-      "scientificName": "Cephaloscyllium sufflans",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 169232956,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "umbratile",
-      "scientificName": "Cephaloscyllium umbratile",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42707,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "variegatum",
-      "scientificName": "Cephaloscyllium variegatum",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60227,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "ventriosum",
-      "scientificName": "Cephaloscyllium ventriosum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42709,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Cephaloscyllium",
-      "speciesName": "zebrum",
-      "scientificName": "Cephaloscyllium zebrum",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39348,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Poroderma",
-      "speciesName": "africanum",
-      "scientificName": "Poroderma africanum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161515,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Poroderma",
-      "speciesName": "pantherinum",
-      "scientificName": "Poroderma pantherinum",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39347,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Schroederichthys",
-      "speciesName": "bivius",
-      "scientificName": "Schroederichthys bivius",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44585,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Schroederichthys",
-      "speciesName": "chilensis",
-      "scientificName": "Schroederichthys chilensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161544,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Schroederichthys",
-      "speciesName": "maculatus",
-      "scientificName": "Schroederichthys maculatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44586,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Schroederichthys",
-      "speciesName": "saurisqualus",
-      "scientificName": "Schroederichthys saurisqualus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44587,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Schroederichthys",
-      "speciesName": "tenuis",
-      "scientificName": "Schroederichthys tenuis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161336,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "boa",
-      "scientificName": "Scyliorhinus boa",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 129495825,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "cabofriensis",
-      "scientificName": "Scyliorhinus cabofriensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161307554,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "canicula",
-      "scientificName": "Scyliorhinus canicula",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39349,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "capensis",
-      "scientificName": "Scyliorhinus capensis",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60234,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "cervigoni",
-      "scientificName": "Scyliorhinus cervigoni",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161429,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "comoroensis",
-      "scientificName": "Scyliorhinus comoroensis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161458,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "garmani",
-      "scientificName": "Scyliorhinus garmani",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 130394197,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "haeckelii",
-      "scientificName": "Scyliorhinus haeckelii",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44590,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "hesperius",
-      "scientificName": "Scyliorhinus hesperius",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60232,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "meadi",
-      "scientificName": "Scyliorhinus meadi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60233,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "retifer",
-      "scientificName": "Scyliorhinus retifer",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161484,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "stellaris",
-      "scientificName": "Scyliorhinus stellaris",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161308360,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "torazame",
-      "scientificName": "Scyliorhinus torazame",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161449,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "torrei",
-      "scientificName": "Scyliorhinus torrei",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 129495856,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SCYLIORHINIDAE",
-      "genusName": "Scyliorhinus",
-      "speciesName": "ugoi",
-      "scientificName": "Scyliorhinus ugoi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41747,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Centroscymnus",
-      "speciesName": "coelolepis",
-      "scientificName": "Centroscymnus coelolepis",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 116858686,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Centroscymnus",
-      "speciesName": "macracanthus",
-      "scientificName": "Centroscymnus macracanthus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41749,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Centroscymnus",
-      "speciesName": "owstonii",
-      "scientificName": "Centroscymnus owstonii",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 46864,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Centroselachus",
-      "speciesName": "crepidater",
-      "scientificName": "Centroselachus crepidater",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41855,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Scymnodalatias",
-      "speciesName": "albicauda",
-      "scientificName": "Scymnodalatias albicauda",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161583,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Scymnodalatias",
-      "speciesName": "garricki",
-      "scientificName": "Scymnodalatias garricki",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44570,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Scymnodalatias",
-      "speciesName": "oligodon",
-      "scientificName": "Scymnodalatias oligodon",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41856,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Scymnodalatias",
-      "speciesName": "sherwoodi",
-      "scientificName": "Scymnodalatias sherwoodi",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161363,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Scymnodon",
-      "speciesName": "ichiharai",
-      "scientificName": "Scymnodon ichiharai",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 46865,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Scymnodon",
-      "speciesName": "plunketi",
-      "scientificName": "Scymnodon plunketi",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2018,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161717,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Scymnodon",
-      "speciesName": "ringens",
-      "scientificName": "Scymnodon ringens",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41857,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Somniosus",
-      "speciesName": "antarcticus",
-      "scientificName": "Somniosus antarcticus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161552,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Somniosus",
-      "speciesName": "longus",
-      "scientificName": "Somniosus longus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60213,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Somniosus",
-      "speciesName": "microcephalus",
-      "scientificName": "Somniosus microcephalus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161403,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Somniosus",
-      "speciesName": "pacificus",
-      "scientificName": "Somniosus pacificus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161432,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Somniosus",
-      "speciesName": "rostratus",
-      "scientificName": "Somniosus rostratus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60215,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SOMNIOSIDAE",
-      "genusName": "Zameus",
-      "speciesName": "squamulosus",
-      "scientificName": "Zameus squamulosus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41810,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Eusphyra",
-      "speciesName": "blochii",
-      "scientificName": "Eusphyra blochii",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2016,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 44591,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "corona",
-      "scientificName": "Sphyrna corona",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 152783714,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "gilberti",
-      "scientificName": "Sphyrna gilberti",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39385,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "lewini",
-      "scientificName": "Sphyrna lewini",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60201,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "media",
-      "scientificName": "Sphyrna media",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39386,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "mokarran",
-      "scientificName": "Sphyrna mokarran",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39387,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "tiburo",
-      "scientificName": "Sphyrna tiburo",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60202,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "tudes",
-      "scientificName": "Sphyrna tudes",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "",
-      "CITES": "",
-      "CoP19_new": "x",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 39388,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "SPHYRNIDAE",
-      "genusName": "Sphyrna",
-      "speciesName": "zygaena",
-      "scientificName": "Sphyrna zygaena",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "x",
-      "CoP19_new": "",
-      "CITES_CoP19_both": "x"
-    },
-    {
-      "internalTaxonId": 60209,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Cirrhigaleus",
-      "speciesName": "asper",
-      "scientificName": "Cirrhigaleus asper",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161321,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Cirrhigaleus",
-      "speciesName": "australis",
-      "scientificName": "Cirrhigaleus australis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41795,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Cirrhigaleus",
-      "speciesName": "barbifer",
-      "scientificName": "Cirrhigaleus barbifer",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 91209505,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "acanthias",
-      "scientificName": "Squalus acanthias",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124488765,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "acutipinnis",
-      "scientificName": "Squalus acutipinnis",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 129495269,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "albicaudus",
-      "scientificName": "Squalus albicaudus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42723,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "albifrons",
-      "scientificName": "Squalus albifrons",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 158616,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "altipinnis",
-      "scientificName": "Squalus altipinnis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 129495390,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "bahiensis",
-      "scientificName": "Squalus bahiensis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124356938,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "bassi",
-      "scientificName": "Squalus bassi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 169229923,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "blainville",
-      "scientificName": "Squalus blainville",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 197258574,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "boretzi",
-      "scientificName": "Squalus boretzi",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161438,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "brevirostris",
-      "scientificName": "Squalus brevirostris",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161703,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "bucephalus",
-      "scientificName": "Squalus bucephalus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161360,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "chloroculus",
-      "scientificName": "Squalus chloroculus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 152781911,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "clarkae",
-      "scientificName": "Squalus clarkae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42725,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "crassispinus",
-      "scientificName": "Squalus crassispinus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 61416,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "cubensis",
-      "scientificName": "Squalus cubensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 158617,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "edmundsi",
-      "scientificName": "Squalus edmundsi",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 169229426,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "formosus",
-      "scientificName": "Squalus formosus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42727,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "grahami",
-      "scientificName": "Squalus grahami",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195487,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "griffini",
-      "scientificName": "Squalus griffini",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 162154636,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "hawaiiensis",
-      "scientificName": "Squalus hawaiiensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161410,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "hemipinnis",
-      "scientificName": "Squalus hemipinnis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161433,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "japonicus",
-      "scientificName": "Squalus japonicus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161668,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "lalannei",
-      "scientificName": "Squalus lalannei",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 129495487,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "lobularis",
-      "scientificName": "Squalus lobularis",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124357052,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "mahia",
-      "scientificName": "Squalus mahia",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124357112,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "margaretsmithae",
-      "scientificName": "Squalus margaretsmithae",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 124553086,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "megalops",
-      "scientificName": "Squalus megalops",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41860,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "melanurus",
-      "scientificName": "Squalus melanurus",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 152781967,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "mitsukurii",
-      "scientificName": "Squalus mitsukurii",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161404,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "montalbani",
-      "scientificName": "Squalus montalbani",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42726,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "nasutus",
-      "scientificName": "Squalus nasutus",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42722,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "notocaudatus",
-      "scientificName": "Squalus notocaudatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 129495645,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "quasimodo",
-      "scientificName": "Squalus quasimodo",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41861,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "rancureli",
-      "scientificName": "Squalus rancureli",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161469,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "raoulensis",
-      "scientificName": "Squalus raoulensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195488,
-      "orderName": "SQUALIFORMES",
-      "familyName": "SQUALIDAE",
-      "genusName": "Squalus",
-      "speciesName": "suckleyi",
-      "scientificName": "Squalus suckleyi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 61417,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "aculeata",
-      "scientificName": "Squatina aculeata",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44996,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "africana",
-      "scientificName": "Squatina africana",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42729,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "albipunctata",
-      "scientificName": "Squatina albipunctata",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2016,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39329,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "argentina",
-      "scientificName": "Squatina argentina",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44571,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "armata",
-      "scientificName": "Squatina armata",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41862,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "australis",
-      "scientificName": "Squatina australis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 116880225,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "caillieti",
-      "scientificName": "Squatina caillieti",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2019,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39328,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "californica",
-      "scientificName": "Squatina californica",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 116880357,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "david",
-      "scientificName": "Squatina david",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 197087,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "dumeril",
-      "scientificName": "Squatina dumeril",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161456,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "formosa",
-      "scientificName": "Squatina formosa",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 130393378,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "guggenheim",
-      "scientificName": "Squatina guggenheim",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161558,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "japonica",
-      "scientificName": "Squatina japonica",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161638,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "legnota",
-      "scientificName": "Squatina legnota",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161325,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "nebulosa",
-      "scientificName": "Squatina nebulosa",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39331,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "occulta",
-      "scientificName": "Squatina occulta",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 61418,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "oculata",
-      "scientificName": "Squatina oculata",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42728,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "pseudocellata",
-      "scientificName": "Squatina pseudocellata",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39332,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "squatina",
-      "scientificName": "Squatina squatina",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41863,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "tergocellata",
-      "scientificName": "Squatina tergocellata",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161525,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "tergocellatoides",
-      "scientificName": "Squatina tergocellatoides",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 130389813,
-      "orderName": "SQUATINIFORMES",
-      "familyName": "SQUATINIDAE",
-      "genusName": "Squatina",
-      "speciesName": "varii",
-      "scientificName": "Squatina varii",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41878,
-      "orderName": "ORECTOLOBIFORMES",
-      "familyName": "STEGOSTOMIDAE",
-      "genusName": "Stegostoma",
-      "speciesName": "tigrinum",
-      "scientificName": "Stegostoma tigrinum",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39351,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Furgaleus",
-      "speciesName": "macki",
-      "scientificName": "Furgaleus macki",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39352,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Galeorhinus",
-      "speciesName": "galeus",
-      "scientificName": "Galeorhinus galeus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41813,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Gogolia",
-      "speciesName": "filewoodi",
-      "scientificName": "Gogolia filewoodi",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2020,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41821,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Hemitriakis",
-      "speciesName": "abdita",
-      "scientificName": "Hemitriakis abdita",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2021,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161368,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Hemitriakis",
-      "speciesName": "complicofasciata",
-      "scientificName": "Hemitriakis complicofasciata",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41822,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Hemitriakis",
-      "speciesName": "falcata",
-      "scientificName": "Hemitriakis falcata",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 176486023,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Hemitriakis",
-      "speciesName": "indroyonoi",
-      "scientificName": "Hemitriakis indroyonoi",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161507,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Hemitriakis",
-      "speciesName": "japanica",
-      "scientificName": "Hemitriakis japanica",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39353,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Hemitriakis",
-      "speciesName": "leucoperiptera",
-      "scientificName": "Hemitriakis leucoperiptera",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39354,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Hypogaleus",
-      "speciesName": "hyugaensis",
-      "scientificName": "Hypogaleus hyugaensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 41829,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Iago",
-      "speciesName": "garricki",
-      "scientificName": "Iago garricki",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161501,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Iago",
-      "speciesName": "omanensis",
-      "scientificName": "Iago omanensis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161451,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "albipinnis",
-      "scientificName": "Mustelus albipinnis",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39355,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "antarcticus",
-      "scientificName": "Mustelus antarcticus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39357,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "asterias",
-      "scientificName": "Mustelus asterias",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161334,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "californicus",
-      "scientificName": "Mustelus californicus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39359,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "canis",
-      "scientificName": "Mustelus canis",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44580,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "dorsalis",
-      "scientificName": "Mustelus dorsalis",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 44581,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "fasciatus",
-      "scientificName": "Mustelus fasciatus",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161715,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "griseus",
-      "scientificName": "Mustelus griseus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161648,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "henlei",
-      "scientificName": "Mustelus henlei",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60204,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "higmani",
-      "scientificName": "Mustelus higmani",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39356,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "lenticulatus",
-      "scientificName": "Mustelus lenticulatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2018,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161640,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "lunulatus",
-      "scientificName": "Mustelus lunulatus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161633,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "manazo",
-      "scientificName": "Mustelus manazo",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63128,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "mento",
-      "scientificName": "Mustelus mento",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60205,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "minicanis",
-      "scientificName": "Mustelus minicanis",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161480,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "mosis",
-      "scientificName": "Mustelus mosis",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39358,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "mustelus",
-      "scientificName": "Mustelus mustelus",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161518,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "norrisi",
-      "scientificName": "Mustelus norrisi",
-      "redlistCategory": "Near Threatened",
-      "yearPublished": 2021,
-      "populationTrend": "",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60247,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "palumbes",
-      "scientificName": "Mustelus palumbes",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161485,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "punctulatus",
-      "scientificName": "Mustelus punctulatus",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63165,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "ravidus",
-      "scientificName": "Mustelus ravidus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60203,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "schmitti",
-      "scientificName": "Mustelus schmitti",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 60206,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "sinusmexicanus",
-      "scientificName": "Mustelus sinusmexicanus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2021,
-      "populationTrend": "Increasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 42716,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "stevensi",
-      "scientificName": "Mustelus stevensi",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2019,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 195426,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "walkeri",
-      "scientificName": "Mustelus walkeri",
-      "redlistCategory": "Data Deficient",
-      "yearPublished": 2016,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63129,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "whitneyi",
-      "scientificName": "Mustelus whitneyi",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161571,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Mustelus",
-      "speciesName": "widodoi",
-      "scientificName": "Mustelus widodoi",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39360,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Scylliogaleus",
-      "speciesName": "quecketti",
-      "scientificName": "Scylliogaleus quecketti",
-      "redlistCategory": "Vulnerable",
-      "yearPublished": 2019,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39361,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Triakis",
-      "speciesName": "acutipinna",
-      "scientificName": "Triakis acutipinna",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 63130,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Triakis",
-      "speciesName": "maculata",
-      "scientificName": "Triakis maculata",
-      "redlistCategory": "Critically Endangered",
-      "yearPublished": 2020,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39362,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Triakis",
-      "speciesName": "megalopterus",
-      "scientificName": "Triakis megalopterus",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2020,
-      "populationTrend": "Stable",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 161395,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Triakis",
-      "speciesName": "scyllium",
-      "scientificName": "Triakis scyllium",
-      "redlistCategory": "Endangered",
-      "yearPublished": 2021,
-      "populationTrend": "Decreasing",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    },
-    {
-      "internalTaxonId": 39363,
-      "orderName": "CARCHARHINIFORMES",
-      "familyName": "TRIAKIDAE",
-      "genusName": "Triakis",
-      "speciesName": "semifasciata",
-      "scientificName": "Triakis semifasciata",
-      "redlistCategory": "Least Concern",
-      "yearPublished": 2015,
-      "populationTrend": "Unknown",
-      "CITES": "",
-      "CoP19_new": "",
-      "CITES_CoP19_both": ""
-    }
-  ];
+  {
+    "scientificName": "spp 1",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 2",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 3",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 4",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 5",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 6",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 7",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 8",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 9",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 10",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 11",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 12",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 13",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 14",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 15",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 16",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 17",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 18",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 19",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 20",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 21",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 22",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 23",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 24",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 25",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 26",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 27",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 28",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 29",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 30",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 31",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 32",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 33",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 34",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 35",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 36",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 37",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 38",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 39",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 40",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 41",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 42",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 43",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 44",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 45",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 46",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 47",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 48",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 49",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 50",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 51",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 52",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 53",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 54",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 55",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 56",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 57",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 58",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 59",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 60",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 61",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 62",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 63",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 64",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 65",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 66",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 67",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 68",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 69",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 70",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 71",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 72",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 73",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 74",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 75",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 76",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 77",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 78",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 79",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 80",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 81",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 82",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 83",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 84",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 85",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 86",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 87",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 88",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 89",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 90",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 91",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 92",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 93",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 94",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 95",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 96",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 97",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 98",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 99",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 100",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 101",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 102",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 103",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 104",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 105",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 106",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 107",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 108",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 109",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 110",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 111",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 112",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 113",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 114",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 115",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 116",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 117",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 118",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 119",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 120",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 121",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 122",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 123",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 124",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 125",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 126",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 127",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 128",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 129",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 130",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 131",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 132",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 133",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 134",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 135",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 136",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 137",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 138",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 139",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 140",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 141",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 142",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 143",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 144",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 145",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 146",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 147",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 148",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 149",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 150",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 151",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 152",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 153",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 154",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 155",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 156",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 157",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 158",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 159",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 160",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 161",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 162",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 163",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 164",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 165",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 166",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 167",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 168",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 169",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 170",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 171",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 172",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 173",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 174",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 175",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 176",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 177",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 178",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 179",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 180",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 181",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 182",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 183",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 184",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 185",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 186",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 187",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 188",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 189",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 190",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 191",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 192",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 193",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 194",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 195",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 196",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 197",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 198",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 199",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 200",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 201",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 202",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 203",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 204",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 205",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 206",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 207",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 208",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 209",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 210",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 211",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 212",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 213",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 214",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 215",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 216",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 217",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 218",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 219",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 220",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 221",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 222",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 223",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 224",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 225",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 226",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 227",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 228",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 229",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 230",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 231",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 232",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 233",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 234",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 235",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 236",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 237",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 238",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 239",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 240",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 241",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 242",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 243",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 244",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 245",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 246",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 247",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 248",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 249",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 250",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 251",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 252",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 253",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 254",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 255",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 256",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 257",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 258",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 259",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 260",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 261",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 262",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 263",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 264",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 265",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 266",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 267",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 268",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 269",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 270",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 271",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 272",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 273",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 274",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 275",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 276",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 277",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 278",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 279",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 280",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 281",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 282",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 283",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 284",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 285",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 286",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 287",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 288",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 289",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 290",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 291",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 292",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 293",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 294",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 295",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 296",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 297",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 298",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 299",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 300",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 301",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 302",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 303",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 304",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 305",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 306",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 307",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 308",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 309",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 310",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 311",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 312",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 313",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 314",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 315",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 316",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 317",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 318",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 319",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 320",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 321",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 322",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 323",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 324",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 325",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 326",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 327",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 328",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 329",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 330",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 331",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 332",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 333",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 334",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 335",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 336",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 337",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 338",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 339",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 340",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 341",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 342",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 343",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 344",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 345",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 346",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 347",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 348",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 349",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 350",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 351",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 352",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 353",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 354",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 355",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 356",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 357",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 358",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 359",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 360",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 361",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 362",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 363",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 364",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 365",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 366",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 367",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 368",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 369",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 370",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 371",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 372",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 373",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 374",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 375",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 376",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 377",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 378",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 379",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 380",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 381",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 382",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 383",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 384",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 385",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 386",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 387",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 388",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 389",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 390",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 391",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 392",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 393",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 394",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 395",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 396",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 397",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 398",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 399",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 400",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 401",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 402",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 403",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 404",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 405",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 406",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 407",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 408",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 409",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 410",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 411",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 412",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 413",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 414",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 415",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 416",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 417",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 418",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 419",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 420",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 421",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 422",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 423",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 424",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 425",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 426",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 427",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 428",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 429",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 430",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 431",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 432",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 433",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 434",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 435",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 436",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 437",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 438",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 439",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 440",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 441",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 442",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 443",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 444",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 445",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 446",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 447",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 448",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 449",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 450",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 451",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 452",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 453",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 454",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 455",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 456",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 457",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 458",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 459",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 460",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 461",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 462",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 463",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 464",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 465",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 466",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 467",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 468",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 469",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 470",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 471",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 472",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 473",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 474",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 475",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 476",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 477",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 478",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 479",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 480",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 481",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 482",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 483",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 484",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 485",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 486",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 487",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 488",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 489",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 490",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 491",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 492",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 493",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 494",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 495",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 496",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 497",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 498",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 499",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 500",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 501",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 502",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 503",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 504",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 505",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 506",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 507",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 508",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 509",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 510",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 511",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 512",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 513",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 514",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 515",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 516",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 517",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 518",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 519",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 520",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 521",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 522",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 523",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 524",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 525",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 526",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 527",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 528",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 529",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 530",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 531",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 532",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 533",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 534",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 535",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 536",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 537",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 538",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 539",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 540",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 541",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 542",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 543",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 544",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 545",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 546",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 547",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 548",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 549",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 550",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 551",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 552",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 553",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 554",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 555",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 556",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 557",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 558",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 559",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 560",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 561",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 562",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 563",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 564",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 565",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 566",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 567",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 568",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 569",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 570",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 571",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 572",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 573",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 574",
+    "redlistCategory": "Near Threatened"
+  },
+  {
+    "scientificName": "spp 575",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 576",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 577",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 578",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 579",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 580",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 581",
+    "redlistCategory": "Data Deficient"
+  },
+  {
+    "scientificName": "spp 582",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 583",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 584",
+    "redlistCategory": "Vulnerable"
+  },
+  {
+    "scientificName": "spp 585",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 586",
+    "redlistCategory": "Critically Endangered"
+  },
+  {
+    "scientificName": "spp 587",
+    "redlistCategory": "Least Concern"
+  },
+  {
+    "scientificName": "spp 588",
+    "redlistCategory": "Endangered"
+  },
+  {
+    "scientificName": "spp 589",
+    "redlistCategory": "Least Concern"
+  }
+]
